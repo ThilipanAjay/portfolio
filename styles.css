@@ -77,7 +77,8 @@
 img{
     max-width: 100%;
     height: auto;
-    display:block;
+    display:absolute;
+    margin-right: 100px;
 }
 /*custom css class*/
 /*lay out*/
@@ -172,6 +173,9 @@ position: relative;
 .home_title{
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-5);
+    /* position: absolute;
+    top: 10%;
+    left: 50%; */
 }
 .home_title-color{
     color: var(--first-color);
@@ -451,4 +455,27 @@ flex-direction: row;
     .home_img{
         right: 10px;
     }
+}
+
+.home_tittle{
+    position: absolute;
+    top: 33%;
+    left: 10%;
+    font-size: 60px;
+}
+.home_img{
+    margin-right: 10%;
+}
+.button{
+    margin-top: 70%;
+}
+.nav_logo{
+    margin-top: 10%;
+}
+.contact_form{
+    margin-left: 40%;
+    border-radius: 3%;
+}
+.control_button button{
+    margin-bottom: 50%;
 }
